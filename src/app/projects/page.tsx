@@ -19,7 +19,7 @@ export default function ProjectsPage() {
           >
             Turbo
           </a>{" "}
-          "Crashing Out" game jam — can you make it to floor 40, or will you crash out?
+          &quot;Crashing Out&quot; game jam — can you make it to floor 40, or will you crash out?
         </ProjectCard>
 
         <ProjectCard
@@ -35,7 +35,7 @@ export default function ProjectsPage() {
           >
             Atari
           </a>{" "}
-          "I, Rebel" game jam — dodge hazards and race to the sun to save the world!
+          &quot;I, Rebel&quot; game jam — dodge hazards and race to the sun to save the world!
         </ProjectCard>
       </div>
     </main>
