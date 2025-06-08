@@ -11,6 +11,11 @@ const posts = [
     title: "🤖 ChatGPT and Me",
     excerpt: "The AI rubber duck method — how it helped me learn to code for the first time.",
   },
+  {
+    slug: "why-a-web-app",
+    title: "🌐 Why A Web App?",
+    excerpt: "Skills I had to learn and the goals I'm trying to reach and why you should follow suit",
+  },
 ];
 
 export default function BlogPage() {

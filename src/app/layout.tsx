@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk:wght@400;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk:wght@400;700&family=Fira+Code&display=swap"
           rel="stylesheet"
         />
       </head>
