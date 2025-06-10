@@ -94,7 +94,7 @@ return (
     </p>
 
     <p className="text-gray-300 text-lg leading-relaxed text-left mt-6">
-      If I could go back and do things differently, I wouldn&apos;t have named it &quot;my-react-app&quot;, haha. I also would have started this entire journey with more emphasis on GitHub, but it has paved the way to valuable skills, like updating my project with Git through the terminal, which I think is a valuable skill to have picked up.
+      If I could go back and do things differently, I wouldn&apos;t have named it &quot;my-react-app&quot;, haha. I also would have included some art and personalization to make my website stand out a bit more, but this isn&apos;t something I can&apos;t add in the future. Additionally I would have started this entire journey with more emphasis on GitHub, but it has paved the way to valuable skills, like updating my project with Git through the terminal, which I think is a valuable skill to have picked up.
     </p>
 
     <CodeToggle label="Git Push Example" code={gitpushCode} />

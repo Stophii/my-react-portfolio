@@ -3,12 +3,14 @@ import ProjectCard from "./ProjectCard";
 export default function ProjectsPage() {
   return (
     <main className="min-h-screen px-6 py-12">
-      <h1 className="text-4xl font-bold text-center mb-10">🕹️ My Games</h1>
+      <h1 className="text-4xl font-bold text-center mb-10">🕹️ My Projects</h1>
 
       <div className="grid gap-6 max-w-4xl mx-auto">
         <ProjectCard
           title="Dungeon Crashing"
           url="https://bingus-productions.itch.io/dungeon-crashing"
+          linkLabel="➡️ Play on Itch.io"
+
         >
           A procedurally generated dungeon crawler made for the{" "}
           <a
@@ -25,6 +27,8 @@ export default function ProjectsPage() {
         <ProjectCard
           title="Flight of the Ganderlleese"
           url="https://bingus-productions.itch.io/flight-of-the-ganderlleese"
+          linkLabel="➡️ Play on Itch.io"
+
         >
           An arcade-style time attack built for the{" "}
           <a
@@ -36,6 +40,15 @@ export default function ProjectsPage() {
             Atari
           </a>{" "}
           &quot;I, Rebel&quot; game jam — dodge hazards and race to the sun to save the world!
+        </ProjectCard>
+
+        <ProjectCard
+          title="Jam Idea Generator"
+          url="https://jam-idea-generator.vercel.app/"
+          linkLabel="🎲 Try the Generator"
+
+        >
+          An MCP server designed to jumpstart your game jam process — feed it a theme and a genre, and get cooking!
         </ProjectCard>
       </div>
     </main>
