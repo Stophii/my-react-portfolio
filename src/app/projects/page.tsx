@@ -43,12 +43,11 @@ export default function ProjectsPage() {
         </ProjectCard>
 
         <ProjectCard
-          title="Jam Idea Generator"
-          url="https://jam-idea-generator.vercel.app/"
-          linkLabel="🎲 Try the Generator"
-
+          title="Turbo MCP Server"
+          url="https://turbo-mcp-frontend-ktypjxsv4-stophiis-projects.vercel.app/"
+          linkLabel="🧠 Ask me a question!"
         >
-          An MCP server designed to jumpstart your game jam process — feed it a theme and a genre, and get cooking!
+        An MCP server designed to help you develop Turbo games — upload your project&apos;s src folder and ask a question.       
         </ProjectCard>
       </div>
     </main>
