@@ -10,6 +10,12 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata: Metadata = {
   title: "Bingus Productions",
   description: "Games & devlogs by Bingus Productions.",
+  icons: {
+  icon: [
+    { url: "/icon.png", type: "image/png", sizes: "512x512" }, // your logo
+  ],
+  apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
