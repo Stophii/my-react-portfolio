@@ -20,7 +20,7 @@ export default function AboutPage() {
       {/* Studio blurb */}
       <section className="mt-10 text-left">
         <p className="text-neutral-300 text-lg leading-relaxed">
-          Bingus Productions is an indie games developer in Boise Idaho. My mission is to create amazing, honest, and silly games people will enjoy for years to come; learning and sharing the journey along the way.
+          Bingus Productions is an indie games developer in Boise, Idaho. My mission is to create amazing, honest, and silly games people will enjoy for years to come; learning and sharing the journey along the way.
         </p>
       </section>
 
@@ -32,7 +32,7 @@ export default function AboutPage() {
           {/* Your portrait goes here, above your name */}
           <div className="flex flex-col items-center text-center">
             <Image
-              src="/about/stoph.webp"            // <--- put your file here
+              src="/about/stoph.webp"
               alt="Christopher “Stoph” Savary"
               width={160}
               height={160}
@@ -49,18 +49,6 @@ export default function AboutPage() {
           </p>
         </article>
       </section>
-
-      {/* Optional: feedback link */}
-      <div className="mt-10 text-center">
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfHq90OA_X-O0tyP40vwdG1YDaJyX3GO8KGFb7mEVQX03dpxQ/viewform?usp=header"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block underline"
-        >
-          Leave feedback on my games
-        </a>
-      </div>
     </main>
   );
 }
