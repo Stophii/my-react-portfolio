@@ -1,32 +1,66 @@
+// src/app/about/page.tsx
+import Image from "next/image";
+
 export default function AboutPage() {
   return (
-    <main className="min-h-screen px-6 py-12 max-w-3xl mx-auto text-center">
-      <h1 className="text-4xl font-bold mb-6">👤 About Me</h1>
+    <main className="min-h-screen px-6 py-12 max-w-3xl mx-auto">
+      {/* Header block: logo + studio name */}
+      <div className="flex flex-col items-center text-center">
+        <Image
+          src="/logo.png"
+          alt="Bingus Productions logo"
+          width={128}
+          height={128}
+          priority
+        />
+        <h1 className="mt-4 text-4xl font-bold tracking-wide">Bingus Productions</h1>
+        <p className="mt-2 text-neutral-400">Learning · Dreaming · Creating</p>
+      </div>
 
-      <p className="text-gray-300 text-lg leading-relaxed mb-8 text-left">
-        I&apos;m Christopher Savary — but please, call me Stoph. I&apos;m a self-taught game developer, software developer, and computer specialist. I love robots — whether it&apos;s Armored Cores, Gundams, or Transformers, I&apos;m into all things mecha. I grew up with games and developed a deep passion for anything fantasy or game-related. Some of my favorite games include Dark Souls, Hollow Knight, Armored Core, and Final Fantasy. I&apos;m also into Warhammer and anything artistic that fuels my creativity.
+      {/* Studio blurb */}
+      <section className="mt-10 text-left">
+        <p className="text-neutral-300 text-lg leading-relaxed">
+          Bingus Productions is an indie games developer in Boise Idaho. My mission is to create amazing, honest, and silly games people will enjoy for years to come; learning and sharing the journey along the way.
+        </p>
+      </section>
 
-        <br /><br />
+      {/* Team (just you) */}
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold text-center">The Team</h2>
 
-        I work every day to grow — not just to meet my own expectations, but to provide for my growing family. My life has been eventful, filled with ups and downs, and at 27, I feel like I&apos;m learning life lessons a decade earlier than most. My dream is to create games that my loved ones — and the world — can enjoy. Technology and games have helped me see the magic in life, and I aim to channel that inspiration into everything I build. Sound, art, programming, fantasy, and creation — those are what I live for. My favorite color is white, and I love animals. If any of my work, words, or stories inspire you, I&apos;d genuinely love to hear it.
+        <article className="mt-6 rounded-lg border border-white/10 p-5">
+          {/* Your portrait goes here, above your name */}
+          <div className="flex flex-col items-center text-center">
+            <Image
+              src="/about/stoph.webp"            // <--- put your file here
+              alt="Christopher “Stoph” Savary"
+              width={160}
+              height={160}
+              className="rounded-full object-cover ring-1 ring-white/10"
+            />
+            <h3 className="mt-4 text-xl font-medium">
+              Christopher &rdquo;Stoph&rdquo; Savary
+              <span className="text-neutral-400 text-base font-normal"> — Founder / Developer</span>
+            </h3>
+          </div>
 
-      </p>
+          <p className="mt-4 text-neutral-300 leading-relaxed">
+            Christopher is the founder of Bingus Productions who goes by &rdquo;Stoph&rdquo;. He&apos;s excited to share the continued journey of his career as a game developer with whoever is interested. Growing up with Playstation 2, N64, and computer games has fueled his passion for turning ideas into playable slices for people to explore. Having fell in love with games early on, he wants to share that magic with others. He aims to craft adventures that feel rewarding and full of enjoyement, with a soft spot for mechs, fantasy, and humor. As a husband and a father, he strives to build games and a future his family can be proud of.
+          </p>
+        </article>
+      </section>
 
-      <p className="text-gray-300 text-lg leading-relaxed mb-8 text-left">
-        This site is both a personal hub and a learning project — my first steps into TypeScript and React. Here, I share the games I&apos;ve made, blog about what I&apos;ve learned, and reflect on the creative process as I continue to grow.
-      </p>
-
-      <div className="mt-10">
+      {/* Optional: feedback link */}
+      <div className="mt-10 text-center">
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfHq90OA_X-O0tyP40vwdG1YDaJyX3GO8KGFb7mEVQX03dpxQ/viewform?usp=header"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block text-blue-400 hover:underline text-lg"
+          className="inline-block underline"
         >
-          ✉️ Leave Feedback on My Games
+          Leave feedback on my games
         </a>
       </div>
     </main>
   );
 }
-
