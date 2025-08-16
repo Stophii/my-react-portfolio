@@ -5,7 +5,7 @@ export default function Post() {
     <article className="mx-auto max-w-3xl">
       <div className="aspect-[16/9] overflow-hidden rounded-lg bg-neutral-800 mb-6">
         <img
-          src="/blog/introducing-hangar.webp"
+          src="/blog/bingus3.webp"
           alt="Introducing Hangar"
           className="h-full w-full object-cover"
         />

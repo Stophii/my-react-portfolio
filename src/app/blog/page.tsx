@@ -13,7 +13,7 @@ const posts = [
     title: "Introducing Hangar",
     date: "2025-08-15",
     excerpt: "Hello! Hangar is my first proof of concept as a developer, so here’s what it is and where I’m taking it. My style leans toward clear systems, tight feel, and learning in public.",
-    image: "/blog/solar.webp",
+    image: "/blog/bingus3.webp",
   },
 ];
 

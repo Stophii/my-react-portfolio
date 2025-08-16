@@ -1,5 +1,6 @@
 // src/app/about/page.tsx
 import Image from "next/image";
+import SubscribeForm from "@/app/components/SubscribeForm";
 
 export default function AboutPage() {
   return (
@@ -29,7 +30,6 @@ export default function AboutPage() {
         <h2 className="text-2xl font-semibold text-center">The Team</h2>
 
         <article className="mt-6 rounded-lg border border-white/10 p-5">
-          {/* Your portrait goes here, above your name */}
           <div className="flex flex-col items-center text-center">
             <Image
               src="/about/stoph.webp"
@@ -48,6 +48,13 @@ export default function AboutPage() {
             Christopher is the founder of Bingus Productions who goes by &rdquo;Stoph&rdquo;. He&apos;s excited to share the continued journey of his career as a game developer with whoever is interested. Growing up with Playstation 2, N64, and computer games has fueled his passion for turning ideas into playable slices for people to explore. Having fell in love with games early on, he wants to share that magic with others. He aims to craft adventures that feel rewarding and full of enjoyement, with a soft spot for mechs, fantasy, and humor. As a husband and a father, he strives to build games and a future his family can be proud of.
           </p>
         </article>
+      </section>
+
+      {/* Subscribe */}
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold">Subscribe to Devlog Diaries</h2>
+        <p className="text-neutral-500 mb-3">Join our mailing list!</p>
+        <SubscribeForm />
       </section>
     </main>
   );
