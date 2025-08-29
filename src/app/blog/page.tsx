@@ -15,6 +15,14 @@ const posts = [
     excerpt: "Hello! Hangar is my first proof of concept as a developer, so here’s what it is and where I’m taking it. My style leans toward clear systems, tight feel, and learning in public.",
     image: "/blog/bingus3.webp",
   },
+  {
+    slug: "playnyc-2025", // must match your folder name under app/blog/
+    title: "PlayNYC 2025: My First Big Showcase as an Indie Dev",
+    date: "2025-08-28",
+    excerpt: "Post-PlayNYC recap: what went well, what I learned, and where Hangar is heading next.",
+    image: "/blog/playnyc.jpg",
+  },
+//add more posts here
 ];
 
 function formatDate(d: string) {

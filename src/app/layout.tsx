@@ -47,6 +47,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <a href="https://bsky.app/profile/stophy.itch.io" aria-label="Bluesky" title="Bluesky" target="_blank" rel="noopener noreferrer">
               <img src="/icons/bluesky.svg" alt="" aria-hidden="true" className="h-5 w-5 opacity-90 hover:opacity-100 transition-opacity" />
             </a>
+            <a href="https://linktr.ee/BingusProductions" aria-label="Linktree" title="Linktree" target="_blank" rel="noopener noreferrer">
+              <img src="/icons/linktree.svg" alt="" aria-hidden="true" className="h-5 w-5 opacity-90 hover:opacity-100 transition-opacity" />
+            </a>
           </div>
         </div>
         </header>
@@ -110,6 +113,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="noopener noreferrer"
         >
           <img src="/icons/bluesky.svg" alt="" aria-hidden="true" className="h-6 w-6 hover:opacity-80 transition-opacity" />
+        </a>
+        <a
+          href="https://linktr.ee/BingusProductions"
+          aria-label="Linktree"
+          title="Linktree"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/icons/linktree.svg" alt="" aria-hidden="true" className="h-6 w-6 hover:opacity-80 transition-opacity" />
         </a>
       </div>
     </div>
