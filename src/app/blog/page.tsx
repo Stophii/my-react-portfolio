@@ -22,6 +22,13 @@ const posts = [
     excerpt: "Post-PlayNYC recap: what went well, what I learned, and where Hangar is heading next.",
     image: "/blog/playnyc.jpg",
   },
+  {
+    slug: "hangar-post-mortem",
+    title: "Hangar — A Bingus Postmortem",
+    date: "2025-09-15",
+    excerpt: "The 6 month journey behind making my first successful video game in the Turbo engine.",
+    image: "/blog/postmortem.jpg",
+  },
 //add more posts here
 ];
 
